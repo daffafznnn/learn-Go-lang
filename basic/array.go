@@ -13,7 +13,7 @@ fmt.Println(buah[1])
 fmt.Println(buah[2])
 
 // array secara langsung
-var values = [3]int{
+var values = [...]int{
 	90,
 	80,
 	70,

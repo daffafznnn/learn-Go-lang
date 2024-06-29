@@ -12,6 +12,7 @@ func main(){
 	var i = 20
 
 	i += 20
+	i *= 2
 	fmt.Println(i)
 
 	// unary operation
@@ -20,4 +21,8 @@ func main(){
 	j++
 	j--
 	fmt.Println(j)
+
+	var g = 28
+	execute := g * 2 % 5
+	fmt.Println("execute g:", execute)
 }

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main(){
-	name := "Asep"
+	name := "daffa fauzan"
 
 	switch name {
 	case "Daffa":
@@ -15,6 +15,7 @@ func main(){
 	}
 
 	// switch short statement
+
 	// switch length := len(name); length > 5{
 	// case true:
 	// 	fmt.Println("Nama terlalu panjang")

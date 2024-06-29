@@ -10,17 +10,19 @@ func main(){
 		 "budi",
 		 "anies",
 		 "ganjar",
+		 "jokowi",
 	}
 
-	slice := names[4:6]
+	slice := names[4:6] //[anies ganjar]
 	slice2 := names[0:4]
 	slice3 := names[3:]
   fmt.Println(slice)
-  fmt.Println(slice2)
-  fmt.Println(slice3)
+	fmt.Println("panjang slice 1 adalah", len(slice))
+  fmt.Println(slice2) //[agus asep joko budi]
+  fmt.Println(slice3) //[budi anies ganjar jokowi]
 
 	// slice function
-	days := [...]string{
+	days := []string{
 		"Senin",
 		"Selasa",
 		"Rabu",
@@ -34,21 +36,12 @@ func main(){
 	fmt.Println(daySlice1)
 
 	daySlice1[0] = "Sabtu baru"
-	daySlice1[1] = "Minggu baru"
+	daySlice1[1] = "Minggu baru" // [Sabtu baru Minggu baru]
 	fmt.Println(daySlice1)
-	fmt.Println(days)
+	fmt.Println(days) //[Senin Selasa Rabu Kamis Jumat Sabtu baru Minggu baru]
 	
-	daySlice2 := append(daySlice1, "Libur baru")
-	// 	days := [...]string{
-	// 	"Senin",
-	// 	"Selasa",
-	// 	"Rabu",
-	// 	"Kamis",
-	// 	"Jumat",
-	// 	"Sabtu",
-	// 	"Minggu",
-	// 	"Libur baru",
-	// }
+	daySlice2 := append(daySlice1, "Libur baru") //[Sabtu baru Minggu baru Libur baru]
+
 	fmt.Println(daySlice2)
 
 // make slice
@@ -63,7 +56,7 @@ newData := append(newSlice, "ganteng")
 
 fmt.Println(newSlice)
 fmt.Println(newData)
-fmt.Println(len(newSlice))
+fmt.Println(len(newData))
 fmt.Println(cap(newSlice))
 
 newData[1] = "budi"

@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 func main(){
+	// if expression
 	name := "asep"
 
 	if name == "daffa"{
 		fmt.Println("benar anda adalah daffa")
 	} else if name == "asep"{
 		fmt.Println("Hallo asep")
-	}else{
+	} else {
 		fmt.Println("salah anda bukan daffa")
 	}
 

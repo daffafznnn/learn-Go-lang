@@ -12,7 +12,7 @@ fmt.Println(nilai64)
 fmt.Println(nilai16)
 
 var name = "daffa fauzan"
-var e uint8 = name[2]
+var e uint8 = name[0]
 var eString = string(e)
 
 fmt.Println(name)

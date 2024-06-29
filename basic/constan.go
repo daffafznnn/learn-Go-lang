@@ -13,6 +13,6 @@ func main() {
 
 	// error
 	// firtName = "tidak dapat di ubah"
-	// lastName = "tidak dapar di ubah"
+	// lastName = "tidak dapat di ubah"
 
 }
